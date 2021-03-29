@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>     
         <title>Reservia</title>
         <!--Links and MetaTags-->
@@ -7,11 +7,11 @@
         <link rel="icon" type="image/x-icon" href="assets/images/logo/Reservia.ico"/>
         <meta charset="UTF-8"/>
         <!--SEO-->
-        <link ref="canonical" href="#"/>
+        <link rel="canonical" href="#"/>
         <meta name="author" content="EmbitiousDev"/>
         <meta name="description" content="Reservia est le premier projet de la formation Front-end Developer de OpenClassrooms: retranscrire une maquette en code HTML et CSS"/>
         <meta name="keywords" content=""/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="robots" content="noindex, nofollow"/>
         <meta name="theme-color" content="#0065fc"/>
         <!--Facebook MetaTags-->
@@ -74,7 +74,7 @@
             </section>
             <!--Search results-->
             <section id="hebergements">
-                <article>
+                <div>
                     <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                     <nav>
                         <ul>
@@ -128,8 +128,8 @@
                             </li>
                         </ul>
                     </nav>
-                </article>
-                <article>
+                </div>
+                <div>
                     <h2>Hébergements à Marseille</h2>
                     <nav>
                         <ul>
@@ -232,65 +232,63 @@
                         </ul>
                         <a href="#">Afficher plus</a>
                     </nav>
-                </article>
+                </div>
             </section>
             <!--Search-matching activities suggestions-->
             <section id="activites">
-                <article>
-                    <h2>Activités à Marseille</h2>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="a/marseille/vieux-port.html">
-                                    <div>
-                                        <img src="assets/images/activites/vieux_port.jpg" alt="vieux port"/>
-                                        <h3>Vieux Port</h3>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="a/marseille/fort-de-pomegues.html">
-                                    <div>
-                                        <img src="assets/images/activites/fort_pomegues.jpg" alt="fort de Pomègues"/>
-                                        <h3>Fort de Pomègues</h3>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="a/marseille/iles-du-frioul.html">
-                                    <div>
-                                        <img src="assets/images/activites/iles_frioul.jpg" alt="îles du Frioul"/>
-                                        <h3>Îles du Frioul</h3>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="a/marseille/parc-national-des-calanques.html">
-                                    <div>
-                                        <img src="assets/images/activites/parc_national_calanques.jpg" alt="parc national des Calanques"/>
-                                        <h3>Parc National des Calanques</h3>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="a/marseille/notre-dame-de-la-garde.html">
-                                    <div>
-                                        <img src="assets/images/activites/notre_dame_garde.jpg" alt="Notre-Dame-de-la-Garde"/>
-                                        <h3>Notre-Dame-de-la-Garde</h3>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="a/marseille/parc-longchamp.html">
-                                    <div>
-                                        <img src="assets/images/activites/parc_longchamp.jpg" alt="parc Longchamp"/>
-                                        <h3>Parc Longchamp</h3>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </article>
+                <h2>Activités à Marseille</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="a/marseille/vieux-port.html">
+                                <div>
+                                    <img src="assets/images/activites/vieux_port.jpg" alt="vieux port"/>
+                                    <h3>Vieux Port</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="a/marseille/fort-de-pomegues.html">
+                                <div>
+                                    <img src="assets/images/activites/fort_pomegues.jpg" alt="fort de Pomègues"/>
+                                    <h3>Fort de Pomègues</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="a/marseille/iles-du-frioul.html">
+                                <div>
+                                    <img src="assets/images/activites/iles_frioul.jpg" alt="îles du Frioul"/>
+                                    <h3>Îles du Frioul</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="a/marseille/parc-national-des-calanques.html">
+                                <div>
+                                    <img src="assets/images/activites/parc_national_calanques.jpg" alt="parc national des Calanques"/>
+                                    <h3>Parc National des Calanques</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="a/marseille/notre-dame-de-la-garde.html">
+                                <div>
+                                    <img src="assets/images/activites/notre_dame_garde.jpg" alt="Notre-Dame-de-la-Garde"/>
+                                    <h3>Notre-Dame-de-la-Garde</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="a/marseille/parc-longchamp.html">
+                                <div>
+                                    <img src="assets/images/activites/parc_longchamp.jpg" alt="parc Longchamp"/>
+                                    <h3>Parc Longchamp</h3>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
         </main>
         <!--Footer-->

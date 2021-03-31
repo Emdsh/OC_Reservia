@@ -51,28 +51,28 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <form>
-                    <p>
+                    <p id="search">
                         <i class="fas fa-map-marker-alt"></i>
                         <input type="search" placeholder="Rechercher une ville" value="Marseille, France"/>
-                        <input type="submit" value="Rechercher">
+                        <input type="submit" value="Rechercher" id="search_button">
                     </p>
-                    <p>
+                    <p id="filter">
                         <label>Filtres</label>
                         <button>
-                            <i class="fas fa-money-bill-wave"></i> Économique
+                            <i class="fas fa-money-bill-wave icon"></i> Économique
                         </button>
                         <button>
-                            <i class="fas fa-child"></i> Familial
+                            <i class="fas fa-child icon"></i> Familial
                         </button>
                         <button>
-                                <i class="fas fa-heart"></i> Romantique
+                                <i class="fas fa-heart icon"></i> Romantique
                         </button>
                         <button>
-                            <i class="fas fa-dog"></i> Animaux autorisés
+                            <i class="fas fa-dog icon"></i> Animaux autorisés
                         </button>
                     </p>
                 </form>
-                <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+                <p><i class="fas fa-info" id="info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
             </header>
             <!--Search results-->
             <section id="hebergements">

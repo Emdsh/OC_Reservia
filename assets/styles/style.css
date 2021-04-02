@@ -136,3 +136,35 @@ a {
     width: 1rem;
     height: 1rem;
 }
+
+/* lodging results style */
+#hebergements {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 60%;
+}
+
+#top-lodging {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+    float: right;
+}
+
+.lodging-results {
+    width: 20%;
+}
+
+.top-lodging-results {
+    width: 25%;
+}
+
+.lodging-results img {
+    width: 20%;
+}
+
+.top-lodging-results img {
+    width: 25%;
+}

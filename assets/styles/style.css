@@ -115,6 +115,10 @@ a {
     text-align: center;
 }
 
+.filter button:hover {
+    background-color: #deebff;
+}
+
 .icon {
     color: #0065fc;
     background-color: #deebff;

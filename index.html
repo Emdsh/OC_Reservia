@@ -2,10 +2,12 @@
 <html lang="fr">
     <head>     
         <title>Reservia</title>
+
         <!--Links and MetaTags-->
         <link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
         <link rel="icon" type="image/x-icon" href="assets/images/logo/Reservia.ico"/>
         <meta charset="UTF-8"/>
+
         <!--SEO-->
         <link rel="canonical" href="#"/>
         <meta name="author" content="EmbitiousDev"/>
@@ -14,6 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="robots" content="noindex, nofollow"/>
         <meta name="theme-color" content="#0065fc"/>
+
         <!--Facebook MetaTags-->
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Reservia"/>
@@ -21,21 +24,26 @@
         <meta property="og:url" content="#"/>
         <meta property="og:description" content="Reservia est le premier projet de la formation Front-end Developer de OpenClassrooms: retranscrire une maquette en code HTML et CSS"/>
         <meta property="og:image" content="assets/images/logo/reservia.png"/>
+
         <!--Twitter MetaTags-->
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@EmbitiousDev"/>
         <meta name="twitter:creator" content="@EmbitiousDev"/>
+
         <!--FontAwesome-->
         <script src="https://kit.fontawesome.com/28350a576b.js" crossorigin="anonymous"></script>
+
         <!--GoogleFonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
     </head>
+
     <body>
         <!--Header-->
         <header class="header">
             <a href="index.html" class="logo">
                 <img src="assets/images/logo/reservia.svg" alt="Reservia"/>
             </a>
+
             <nav>
                 <ul>
                     <li><a href="#hebergements">Hébergements</a></li>
@@ -44,46 +52,59 @@
                 </ul>
             </nav>
         </header>
+
         <!--Content-->
         <main>
             <!--Search and filter-->
             <header>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
+
                 <form>
                     <p class="search">
                         <i class="fas fa-map-marker-alt"></i>
+
                         <input type="search" placeholder="Rechercher une ville" value="Marseille, France"/>
+
                         <input type="submit" value="Rechercher" class="search_button">
                     </p>
+
                     <p class="filter">
                         <label>Filtres</label>
+
                         <button>
                             <i class="fas fa-money-bill-wave icon"></i> Économique
                         </button>
+
                         <button>
                             <i class="fas fa-child icon"></i> Familial
                         </button>
+
                         <button>
                             <i class="fas fa-heart icon"></i> Romantique
                         </button>
+
                         <button>
                             <i class="fas fa-dog icon"></i> Animaux autorisés
                         </button>
                     </p>
                 </form>
+
                 <p><i class="fas fa-info info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
             </header>
+
             <!--Search results-->
             <div id="hebergements">
                 <aside class="top-lodging">
                     <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+
                     <nav>
                         <ul>
                             <li>
                                 <a href="h/marseille/hotel-le-soleil-du-matin.html">
                                     <article class="top-lodging-results">
                                         <img src="assets/images/hebergements/hotel_soleil_matin.jpg" alt="hôtel le soleil du matin"/>
+
                                         <h3>Hôtel Le soleil du matin</h3>
                                         <p>Nuit à partir de <strong>128€</strong></p>
                                         <p>
@@ -96,10 +117,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/au-coeur-de-leau-chambres-dhotes.html">
                                     <article class="top-lodging-results">
                                         <img src="assets/images/hebergements/chambres_hotes_coeur_eau.jpg" alt="au cœur de l'eau chambres d'hôtes"/>
+
                                         <h3>Au cœur de l'eau<br/>Chambres d'hôtes</h3>
                                         <p>Nuit à partir de <strong>71€</strong></p>
                                         <p>
@@ -112,10 +135,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/hotel-tout-bleu-et-blanc.html">
                                     <article class="top-lodging-results">
                                         <img src="assets/images/hebergements/hotel_bleu_blanc.jpg" alt="hôtel tout bleu et blanc"/>
+
                                         <h3>Hôtel Tout Bleu et Blanc</h3>
                                         <p>Nuit à partir de <strong>68€</strong></p>
                                         <p>
@@ -131,14 +156,17 @@
                         </ul>
                     </nav>
                 </aside>
+
                 <section class="lodging">
                     <h2>Hébergements à Marseille</h2>
+
                     <nav>
                         <ul>
                             <li>
                                 <a href="h/marseille/auberge-la-canebiere.html">
                                     <article class="lodging-results">
                                         <img src="assets/images/hebergements/auberge_canebiere.jpg" alt="auberge la Canebière"/>
+
                                         <h3>Auberge la Canebière</h3>
                                         <p>Nuit à partir de <strong>25€</strong></p>
                                         <p>
@@ -151,10 +179,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/hotel-du-port.html">
                                     <article class="lodging-results">
                                         <img src="assets/images/hebergements/hotel_port.jpg" alt="hôtel du port"/>
+
                                         <h3>Hôtel du port</h3>
                                         <p>Nuit à partir de <strong>52€</strong></p>
                                         <p>
@@ -167,10 +197,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/hotel-les-mouettes.html">
                                     <article class="lodging-results">
                                         <img src="assets/images/hebergements/hotel_mouettes.jpg" alt="hôtel les mouettes"/>
+
                                         <h3>Hôtel Les mouettes</h3>
                                         <p>Nuit à partir de <strong>76€</strong></p>
                                         <p>
@@ -183,10 +215,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/hotel-de-la-mer.html">
                                     <article class="lodging-results">
                                         <img src="assets/images/hebergements/hotel_mer.jpg" alt="hôtel de la mer"/>
+
                                         <h3>Hôtel de la mer</h3>
                                         <p>Nuit à partir de <strong>46€</strong></p>
                                         <p>
@@ -199,10 +233,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/auberge-le-panier.html">
                                     <article class="lodging-results">
                                         <img src="assets/images/hebergements/auberge_panier.jpg" alt="auberge le panier"/>
+
                                         <h3>Auberge Le panier</h3>
                                         <p>Nuit à partir de <strong>23€</strong></p>
                                         <p>
@@ -215,10 +251,12 @@
                                     </article>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="h/marseille/hotel-chez-amina.html">
                                     <article class="lodging-results">
                                         <img src="assets/images/hebergements/hotel_amina.jpg" alt="hôtel chez Amina"/>
+
                                         <h3>Hôtel chez Amina</h3>
                                         <p>Nuit à partir de <strong>96€</strong></p>
                                         <p>
@@ -232,59 +270,73 @@
                                 </a>
                             </li>
                         </ul>
+
                         <a href="#">Afficher plus</a>
                     </nav>
                 </section>
             </div>
+
             <!--Search-matching activities suggestions-->
             <section id="activites">
                 <h2>Activités à Marseille</h2>
+
                 <nav>
                     <ul>
                         <li>
                             <a href="a/marseille/vieux-port.html">
                                 <article>
                                     <img src="assets/images/activites/vieux_port.jpg" alt="vieux port"/>
+
                                     <h3>Vieux Port</h3>
                                 </article>
                             </a>
                         </li>
+
                         <li>
                             <a href="a/marseille/fort-de-pomegues.html">
                                 <article>
                                     <img src="assets/images/activites/fort_pomegues.jpg" alt="fort de Pomègues"/>
+
                                     <h3>Fort de Pomègues</h3>
                                 </article>
                             </a>
                         </li>
+
                         <li>
                             <a href="a/marseille/iles-du-frioul.html">
                                 <article>
                                     <img src="assets/images/activites/iles_frioul.jpg" alt="îles du Frioul"/>
+
                                     <h3>Îles du Frioul</h3>
                                 </article>
                             </a>
                         </li>
+
                         <li>
                             <a href="a/marseille/parc-national-des-calanques.html">
                                 <article>
                                     <img src="assets/images/activites/parc_national_calanques.jpg" alt="parc national des Calanques"/>
+
                                     <h3>Parc National des Calanques</h3>
                                 </article>
                             </a>
                         </li>
+
                         <li>
                             <a href="a/marseille/notre-dame-de-la-garde.html">
                                 <article>
                                     <img src="assets/images/activites/notre_dame_garde.jpg" alt="Notre-Dame-de-la-Garde"/>
+
                                     <h3>Notre-Dame-de-la-Garde</h3>
                                 </article>
                             </a>
                         </li>
+
                         <li>
                             <a href="a/marseille/parc-longchamp.html">
                                 <article>
                                     <img src="assets/images/activites/parc_longchamp.jpg" alt="parc Longchamp"/>
+
                                     <h3>Parc Longchamp</h3>
                                 </article>
                             </a>
@@ -293,25 +345,31 @@
                 </nav>
             </section>
         </main>
+
         <!--Footer-->
         <footer>
             <nav>
                 <p>À propos</p>
+                
                 <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions générales de vente</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </nav>
+
             <nav>
                 <p>Nos hébergements</p>
+
                 <ul>
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </nav>
+
             <nav>
                 <p>Assistance</p>
+
                 <ul>
                     <li><a href="#">Centre d'aide</a></li>
                     <li><a href="#">Nous contacter</a></li>

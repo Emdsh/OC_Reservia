@@ -157,14 +157,20 @@ a {
 
 /* info icon */
 .info {
-    color: #0065fc;
+    display: flex;
+}
+
+.info__icon {
+    color: var(--blue);
     font-size: 0.75rem;
-    text-align: center;
-    vertical-align: top;
-    border: thin solid #f2f2f2;
+    border: thin solid var(--gray);
     border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
 }
 
 /* --------------------- */

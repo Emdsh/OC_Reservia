@@ -81,7 +81,7 @@ a {
 
 .search__map-marker {
     background-color: var(--gray);
-    border-radius: 10px 0 0 10px;
+    border-radius: 0.5rem 0 0 0.5rem;
     width: 2.5rem;
     height: 2.5rem;
     display: flex;
@@ -94,6 +94,7 @@ a {
     border-left: none;
     border-right: none;
     font-size: 1.2rem;
+    font-weight: bolder;
     height: 2.5rem;
     padding: 0.65rem;
     margin-bottom: 1.5rem;
@@ -102,43 +103,56 @@ a {
 .search__input--blue-button {
     color: white;
     background-color: var(--blue);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0.5rem 0.5rem 0;
     cursor: pointer;
+    font-size: medium;
 }
 
 /* filter bar style */
 .filter {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.filter label {
+.filter__label {
+    font-size: 1.2rem;
     font-weight: bolder;
-    margin-right: 0.25rem;
-    float: left
+    margin-right: 0.5rem;
 }
 
-.filter button {
+.filter__button {
     margin-left: 1rem;
-    font-weight: bolder;
-    background-color: #fff;
-    border: thin solid #f2f2f2;
-    border-radius: 25px;
-    text-align: center;
+    height: 2.5rem;
+    background-color: white;
+    border: thin solid var(--gray);
+    border-radius: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
 }
 
-.filter button:hover {
-    background-color: #deebff;
+.filter__button:hover {
+    background-color: var(--light-blue);
 }
 
-.icon {
-    color: #0065fc;
-    background-color: #deebff;
+.filter__button-text {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.filter__button-icon {
+    color: var(--blue);
+    background-color: var(--light-blue);
     font-size: 1rem;
-    text-align: bottom;
     border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* info icon */

@@ -108,6 +108,14 @@ a {
     font-size: medium;
 }
 
+.search__input--blue-button:hover {
+    color: black;
+    background-color: var(--light-blue);
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    font-size: medium;
+}
+
 /* filter bar style */
 .filter {
     display: flex;

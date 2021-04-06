@@ -1,10 +1,16 @@
-/*main style*/
+/* CSS variables */
+:root {
+    --blue: #0065fc;
+    --light-blue: #deebff;
+    --gray: #f2f2f2;
+}
 
+/* main style */
 body {
     font-family: 'Raleway', sans-serif;
     padding-left: 2rem;
     padding-right: 2rem;
-    background-color: #fff;
+    background-color: white;
     margin-top: -1rem;
 }
 
@@ -23,52 +29,49 @@ ul {
 }
 
 a {
-    color: #000;
+    color: black;
     text-decoration: none;
 }
 
-/*header style*/
+/* header style */
 .header {
     padding-bottom: 2.5rem;
 }
 
-.logo {
+.header__logo {
     margin-top: 0.5rem;
-}
-
-.logo img {
     height: 4rem;
 }
 
-.header a {
-    float: left;
-    padding-top: 1.5rem
-}
-
-.header li {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    border-top: thin solid #fff;
-}
-
-.header li:hover, li:active {
-    border-top-color: #0065fc;
-}
-
-.header a:hover, a:active {
-    color: #0065fc;
-}
-
-.header nav ul{
+.header__links-list{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 1rem;
 }
 
-.register {
+.header__links-list-item {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-top: thin solid white;
+}
+
+.header__links-list-item:hover {
+    border-top-color: var(--blue);
+}
+
+.header__link {
+    float: left;
+    padding-top: 1.5rem
+}
+
+.header__link:hover {
+    color: var(--blue);
+}
+
+.header__link--bold-blue {
     font-weight: bolder;
-    color: #0065fc;
+    color: var(--blue);
 }
 
 /*search bar style*/

@@ -8,8 +8,7 @@
 /* main style */
 body {
     font-family: 'Raleway', sans-serif;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 2rem 0 2rem;
     background-color: white;
     margin-top: -1rem;
 }
@@ -51,8 +50,7 @@ a {
 }
 
 .header__links-list-item {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 0 1rem 0 1rem;
     border-top: thin solid white;
 }
 

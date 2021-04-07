@@ -183,4 +183,50 @@ a {
     margin-right: 0.5rem;
 }
 
+/* stars */
+.star--full-blue {
+    color: var(--blue);
+}
+
+.star--empty-gray {
+    color: var(--gray);
+}
+
 /* top lodging results style */
+.top-lodging {
+    background-color: var(--gray);
+    padding: 2rem 2rem 0 2rem;
+    float: right;
+    border-radius: 2.5rem;
+}
+
+.top-lodging__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-lodging__tile {
+    border-radius: 1.25rem;
+    padding: 0.5rem;
+    background-color: white;
+    height: 10rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.5rem -0.25rem black;
+}
+
+.top-lodging__tile-image {
+    border-radius: 0.75rem 0 0 0.75rem;
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 1.5rem;
+}
+
+.top-lodging__tile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10rem;
+}

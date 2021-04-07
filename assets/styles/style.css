@@ -214,7 +214,7 @@ a {
     padding: 0.5rem;
     background-color: white;
     height: 10rem;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
 }
 

@@ -228,3 +228,28 @@ a {
     justify-content: space-between;
     height: 10rem;
 }
+
+/* lodging results style */
+.lodging {
+    background-color: var(--gray);
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 2.5rem;
+}
+
+.lodging__tile {
+    border-radius: 1.25rem;
+    padding: 0.5rem;
+    background-color: white;
+    height: 14rem;
+    width: 16rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.5rem -0.25rem black;
+}
+
+.lodging__tile-image {
+    border-radius: 0.75rem 0.75rem 0 0;
+    height: 9rem;
+    width: 16rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

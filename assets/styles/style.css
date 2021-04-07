@@ -181,6 +181,13 @@ a {
     margin-right: 0.5rem;
 }
 
+/* lodging results container */
+.lodging-results {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
 /* stars */
 .star--full-blue {
     color: var(--blue);
@@ -194,7 +201,6 @@ a {
 .top-lodging {
     background-color: var(--gray);
     padding: 2rem 2rem 0 2rem;
-    float: right;
     border-radius: 2.5rem;
 }
 
@@ -234,6 +240,8 @@ a {
     background-color: var(--gray);
     padding: 2rem 2rem 0 2rem;
     border-radius: 2.5rem;
+    flex-basis: 66%;
+    margin-right: 2rem;
 }
 
 .lodging__tile {

@@ -77,6 +77,7 @@ a {
 /* search bar style */
 .search {
     display: flex;
+    margin-bottom: 1.5rem;
 }
 
 .search__map-marker {
@@ -97,7 +98,6 @@ a {
     font-weight: bolder;
     height: 2.5rem;
     padding: 0.65rem;
-    margin-bottom: 1.5rem;
 }
 
 .search__input--blue-button {
@@ -121,6 +121,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 .filter__label {
@@ -166,6 +167,7 @@ a {
 /* info icon */
 .info {
     display: flex;
+    margin-bottom: 1.5rem;
 }
 
 .info__icon {
@@ -181,35 +183,4 @@ a {
     margin-right: 0.5rem;
 }
 
-/* --------------------- */
-/* lodging results style */
-.lodging {
-    background-color: #f2f2f2;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 60%;
-}
-
-.top-lodging {
-    background-color: #f2f2f2;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 30%;
-    float: right;
-}
-
-.lodging-results {
-    width: 20%;
-}
-
-.top-lodging-results {
-    width: 25%;
-}
-
-.lodging-results img {
-    width: 100%;
-}
-
-.top-lodging-results img {
-    width: 100%;
-}
+/* top lodging results style */

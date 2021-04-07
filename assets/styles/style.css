@@ -244,20 +244,29 @@ a {
     margin-right: 2rem;
 }
 
+.lodging__tiles-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .lodging__tile {
     border-radius: 1.25rem;
     padding: 0.5rem;
     background-color: white;
-    height: 14rem;
-    width: 16rem;
-    margin-bottom: 2rem;
+    height: 15rem;
+    width: 18rem;
+    margin: 0 2rem 2rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
 }
 
 .lodging__tile-image {
     border-radius: 0.75rem 0.75rem 0 0;
-    height: 9rem;
-    width: 16rem;
+    height: 7rem;
+    width: 18rem;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.lodging__load-more-button {
+    font-weight: bolder;
 }

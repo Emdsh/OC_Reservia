@@ -313,3 +313,23 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+/* footer style */
+.footer {
+    background-color: var(--gray);
+    padding: 2rem;
+    margin: 2rem -2.5rem -0.5rem -2.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 7rem;
+}
+
+.footer__title {
+    font-weight: bolder;
+    flex-basis: 33%;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}

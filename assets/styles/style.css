@@ -330,6 +330,10 @@ a {
     box-shadow: 0 0 2rem -1rem black;
 }
 
+.activity__tile-text {
+    margin-left: 0.5rem;
+}
+
 /* footer style */
 .footer {
     background-color: var(--gray);

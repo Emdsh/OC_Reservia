@@ -270,3 +270,46 @@ a {
 .lodging__load-more-button {
     font-weight: bolder;
 }
+
+/* activity results style */
+.activity__tiles-flex {
+    display: flex;
+    flex-flow: column wrap;
+    height: 28rem;
+}
+
+.activity__tile--large {
+    border-radius: 1.25rem;
+    padding: 0;
+    background-color: white;
+    height: 26rem;
+    width: 23.25rem;
+    margin: 0 2rem 2rem 0;
+    box-shadow: 0 0 0.5rem -0.25rem black;
+}
+
+.activity__tile-image--large {
+    border-radius: 0.75rem 0.75rem 0 0;
+    height: 22rem;
+    width: 23.25rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.activity__tile--small {
+    border-radius: 1.25rem;
+    padding: 0;
+    background-color: white;
+    height: 12rem;
+    width: 23.25rem;
+    margin: 0 2rem 2rem 0;
+    box-shadow: 0 0 0.5rem -0.25rem black;
+}
+
+.activity__tile-image--small {
+    border-radius: 0.75rem 0.75rem 0 0;
+    height: 8rem;
+    width: 23.25rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

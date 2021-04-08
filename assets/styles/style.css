@@ -235,6 +235,10 @@ a {
     height: 10rem;
 }
 
+.top-lodging__tile:hover {
+    box-shadow: 0 0 2rem -1rem black;
+}
+
 /* lodging results style */
 .lodging {
     background-color: var(--gray);
@@ -269,6 +273,10 @@ a {
 
 .lodging__load-more-button {
     font-weight: bolder;
+}
+
+.lodging__tile:hover {
+    box-shadow: 0 0 2rem -1rem black;
 }
 
 /* activity results style */
@@ -312,6 +320,14 @@ a {
     width: 23.25rem;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.activity__tile--large:hover{
+    box-shadow: 0 0 2rem -1rem black;
+}
+
+.activity__tile--small:hover{
+    box-shadow: 0 0 2rem -1rem black;
 }
 
 /* footer style */

@@ -288,6 +288,10 @@ a {
 }
 
 /* activity results style */
+.activity {
+    margin-top: 3rem;
+}
+
 .activity__tiles-flex {
     display: flex;
     flex-flow: column wrap;

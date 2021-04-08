@@ -72,6 +72,10 @@ a {
     color: var(--blue);
 }
 
+.header__link--bold-blue:hover {
+    text-shadow: 0 0 3rem;
+}
+
 /* search bar style */
 .search {
     display: flex;
@@ -277,6 +281,10 @@ a {
 
 .lodging__tile:hover {
     box-shadow: 0 0 2rem -1rem black;
+}
+
+.lodging__load-more-button:hover {
+    text-decoration: underline;
 }
 
 /* activity results style */

@@ -9,7 +9,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: white;
-    padding: 0 2rem 0 2rem;
     margin-top: -1rem;
 }
 
@@ -32,6 +31,10 @@ a {
     text-decoration: none;
 }
 
+header, main, .search-and-filter {
+    padding: 0 3.33vw 0 3.33vw;
+}
+
 /* header style */
 .header {
     padding-bottom: 2.5rem;
@@ -50,7 +53,7 @@ a {
 }
 
 .header__links-list-item {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1.67vw 0 1.67vw;
     border-top: thin solid white;
 }
 
@@ -202,7 +205,8 @@ a {
 .top-lodging {
     background-color: var(--gray);
     border-radius: 2.5rem;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    flex-basis: 30vw;
 }
 
 .top-lodging__title {
@@ -244,9 +248,9 @@ a {
 .lodging {
     background-color: var(--gray);
     border-radius: 2.5rem;
-    padding: 2rem 2rem 0 2rem;
-    margin-right: 2rem;
-    flex-basis: 66%;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    margin-right: 3.33vw;
+    flex-basis: 60vw;
 }
 
 .lodging__tiles-flex {
@@ -347,8 +351,8 @@ a {
 .footer {
     background-color: var(--gray);
     height: 7rem;
-    padding: 2rem;
-    margin: 2rem -2.5rem -0.5rem -2.5rem;
+    padding: 2rem 3.33vw 2rem 3.33vw;
+    margin: 2rem -0.5rem -0.5rem -0.5rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -356,7 +360,7 @@ a {
 
 .footer__title {
     font-weight: bolder;
-    flex-basis: 33%;
+    flex-basis: 33vw;
 }
 
 .footer__link:hover {

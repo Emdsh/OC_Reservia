@@ -217,7 +217,7 @@ header, main, .search-and-filter {
 .top-lodging__tile {
     background-color: white;
     border-radius: 1.25rem;
-    height: 10rem;
+    height: 8.33vw;
     padding: 0.5rem;
     margin: 0 0 2rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
@@ -225,8 +225,8 @@ header, main, .search-and-filter {
 
 .top-lodging__tile-image {
     border-radius: 0.75rem 0 0 0.75rem;
-    height: 10rem;
-    width: 10rem;
+    height: 8.33vw;
+    width: 8.33vw;
     float: left;
     margin-right: 1.5rem;
     background-position: center center;
@@ -234,7 +234,7 @@ header, main, .search-and-filter {
 }
 
 .top-lodging__tile-text {
-    height: 10rem;
+    height: 8.33vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -248,7 +248,7 @@ header, main, .search-and-filter {
 .lodging {
     background-color: var(--gray);
     border-radius: 2.5rem;
-    padding: 2.5rem 2.5rem 0 2.5rem;
+    padding: 2.5rem 0 0 2.5rem;
     margin-right: 3.33vw;
     flex-basis: 60vw;
 }
@@ -261,8 +261,8 @@ header, main, .search-and-filter {
 .lodging__tile {
     background-color: white;
     border-radius: 1.25rem;
-    height: 15rem;
-    width: 18rem;
+    height: 11.65vw;
+    width: 14.5vw;
     padding: 0.5rem;
     margin: 0 2rem 2rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
@@ -270,8 +270,8 @@ header, main, .search-and-filter {
 
 .lodging__tile-image {
     border-radius: 0.75rem 0.75rem 0 0;
-    height: 7rem;
-    width: 18rem;
+    height: 6vw;
+    width: 14.5vw;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -294,7 +294,7 @@ header, main, .search-and-filter {
 }
 
 .activity__tiles-flex {
-    height: 28rem;
+    height: 31.25vw;
     display: flex;
     flex-flow: column wrap;
 }
@@ -302,8 +302,8 @@ header, main, .search-and-filter {
 .activity__tile--large {
     background-color: white;
     border-radius: 1.25rem;
-    height: 26rem;
-    width: 23.25rem;
+    height: 27.25vw;
+    width: 21.25vw;
     padding: 0;
     margin: 0 2rem 2rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
@@ -311,8 +311,8 @@ header, main, .search-and-filter {
 
 .activity__tile-image--large {
     border-radius: 0.75rem 0.75rem 0 0;
-    height: 22rem;
-    width: 23.25rem;
+    height: 23vw;
+    width: 21.25vw;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -320,8 +320,8 @@ header, main, .search-and-filter {
 .activity__tile--small {
     background-color: white;
     border-radius: 1.25rem;
-    height: 12rem;
-    width: 23.25rem;
+    height: 12.5vw;
+    width: 21.25vw;
     padding: 0;
     margin: 0 2rem 2rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
@@ -329,8 +329,8 @@ header, main, .search-and-filter {
 
 .activity__tile-image--small {
     border-radius: 0.75rem 0.75rem 0 0;
-    height: 8rem;
-    width: 23.25rem;
+    height: 8.25vw;
+    width: 21.25vw;
     background-position: center center;
     background-repeat: no-repeat;
 }

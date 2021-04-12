@@ -54,7 +54,7 @@ header, main, .search-and-filter {
 
 .header__links-list-item {
     padding: 0 1.67vw 0 1.67vw;
-    border-top: thin solid white;
+    border-top: medium solid white;
 }
 
 .header__links-list-item:hover {

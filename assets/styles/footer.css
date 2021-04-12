@@ -1,0 +1,19 @@
+/* footer style */
+.footer {
+    background-color: var(--gray);
+    height: 7rem;
+    padding: 2rem 3.33vw 2rem 3.33vw;
+    margin: 2rem -0.5rem -0.5rem -0.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.footer__title {
+    font-weight: bolder;
+    flex-basis: 33vw;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}

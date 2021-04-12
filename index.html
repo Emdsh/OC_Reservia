@@ -59,16 +59,16 @@
             <p>En plein centre ville ou en pleine nature</p>
 
             <form>
-                <div class="search">
+                <fieldset class="search">
                     <i class="fas fa-map-marker-alt search__map-marker"></i>
 
                     <input type="search" placeholder="Rechercher une ville" value="Marseille, France" class="search__input"/>
 
-                    <input type="submit" value="Rechercher" class="search__input search__input--blue-button">
-                </div>
+                    <button class="search__input search__input--blue-button">Rechercher</button>
+                </fieldset>
 
-                <div class="filter">
-                    <label class="filter__label">Filtres</label>
+                <fieldset class="filter">
+                    <legend class="filter__label">Filtres</legend>
 
                     <button class="filter__button">
                         <i class="fas fa-money-bill-wave filter__button-icon"></i><span class="filter__button-text">Économique</span>
@@ -85,7 +85,7 @@
                     <button class="filter__button">
                         <i class="fas fa-dog filter__button-icon"></i><span class="filter__button-text">Animaux autorisés</span>
                     </button>
-                </div>
+                </fieldset>
             </form>
 
             <p class="info"><i class="fas fa-info info__icon"></i> Plus de 500 logements sont disponibles dans cette ville</p>

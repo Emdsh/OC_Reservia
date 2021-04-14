@@ -50,24 +50,43 @@
 
 /* lodging results style */
 .lodging {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.lodging__tiles-flex {
+.lodging__title {
+    margin-bottom: 2rem;
 }
 
 .lodging__tile {
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    box-shadow: 0 0 0.5rem -0.25rem black;
 }
 
 .lodging__tile-image {
+    border-radius: 0.75rem 0.75rem 0 0;
+    height: 114px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lodging__tile-text {
+    line-height: 1rem;
+    margin-left: 1rem;
 }
 
 .lodging__load-more-button {
+    font-weight: bolder;
 }
 
 .lodging__tile:hover {
+    box-shadow: 0 0 2rem -1rem black;
 }
 
 .lodging__load-more-button:hover {
+    text-decoration: underline;
 }
 
 /* activity results style */

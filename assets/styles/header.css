@@ -58,6 +58,39 @@
     text-shadow: 0 0 3rem;
 }
 
+@media all and (min-width: 768px) {
+
+    .header__nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .header__logo{
+        order: unset;
+    }
+    
+    .header__links-list {
+        order: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .header__links-list--bold-blue {
+        order: unset;
+    }
+
+    .header__links-list-item {
+        margin: 0rem 1.67vw 0 1.67vw;
+    }
+
+    .header__link--bold-blue {
+        padding: 1rem 0 0 1.67vw;
+    }
+}
+
 @media all and (min-width: 992px) {
 
     .header {
@@ -67,7 +100,7 @@
 
     .header__logo-image {
         height: 4rem;
-        padding-top: 2.25rem;
+        padding-top: 2rem;
     }
 
     .header__nav {
@@ -75,7 +108,6 @@
         flex-flow: row nowrap;
         justify-content: flex-end;
         align-items: baseline;
-        padding: 0 3.33vw 0 3.33vw;
     }
     
     .header__logo{
@@ -174,6 +206,22 @@
     background-color: var(--light-blue);
 }
 
+@media all and (min-width: 768px) {
+
+    .search__blue-button {
+        width: auto;
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    .search__blue-button--icon {
+        display: none;
+    }
+
+    .search__blue-button--text {
+        display: unset;
+    }
+}
+
 @media all and (min-width: 992px) {
 
     .search {
@@ -181,18 +229,7 @@
     }
 
     .search__input {
-        width: 27%;
-    }
-
-    .search__blue-button {
-        width: auto;
-        border-radius: 0 0.5rem 0.5rem 0;
-    }
-    .search__blue-button--icon {
-        display: none;
-    }
-    .search__blue-button--text {
-        display: unset;
+        width: 20%;
     }
 }
 
@@ -246,11 +283,31 @@
     align-items: center;
 }
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
+
+    .filter {
+        margin-bottom: 1.5rem;
+    }
 
     .filter__legend {
         float: left;
-        margin-right: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .filter__button {
+        margin: 0 1rem 0.5rem 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+
+    .filter {
+        margin-bottom: 2rem;
+    }
+
+    .filter__legend {
+        float: left;
+        margin-right: 0;
     }
 
     .filter__button {

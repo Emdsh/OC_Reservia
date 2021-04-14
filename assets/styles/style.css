@@ -42,6 +42,6 @@ fieldset {
     padding: 0;
 }
 
-header, main, .search-and-filter {
+main, .search-and-filter {
     padding: 0 3.33vw 0 3.33vw;
 }

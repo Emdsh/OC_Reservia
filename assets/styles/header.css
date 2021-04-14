@@ -1,31 +1,48 @@
 /* header style */
 .header {
-    padding-bottom: 4rem;
+    padding: 1rem 0 0.5rem 0;
 }
 
-.header__logo {
-    height: 4rem;
+.header__logo-image {
+    height: 3rem;
     margin-top: 0.5rem;
 }
 
-.header__links-list{
+.header__nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.33vw 0 3.33vw;
+}
+
+.header__logo{
+    order: 0;
+}
+
+.header__links-list {
+    order: 2;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
+    flex-basis: 100vw;
+    padding-top: 1rem;
+}
+
+.header__links-list--bold-blue {
+    order: 1;
 }
 
 .header__links-list-item {
-    padding: 1rem 1.67vw 0 1.67vw;
-    border-top: medium solid white;
+    border-bottom: medium solid var(--gray);
 }
 
 .header__links-list-item:hover {
-    border-top-color: var(--blue);
+    border-bottom-color: var(--blue);
 }
 
 .header__link {
-    float: left;
-    padding-top: 1.5rem
+    padding: 0.5rem 0 0.5rem 0;
 }
 
 .header__link:hover {
@@ -41,6 +58,58 @@
     text-shadow: 0 0 3rem;
 }
 
+@media all and (min-width: 992px) {
+
+    .header {
+        padding: 2rem 0 0.5rem 0;
+        margin-top: -3rem;
+    }
+
+    .header__logo-image {
+        height: 4rem;
+        padding-top: 2.25rem;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: baseline;
+        padding: 0 3.33vw 0 3.33vw;
+    }
+    
+    .header__logo{
+        order: unset;
+        align-self: flex-start;
+    }
+    
+    .header__links-list {
+        order: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: -2rem;
+    }
+    
+    .header__links-list--bold-blue {
+        order: unset;
+    }
+    
+    .header__links-list-item {
+        border-top: medium solid white;
+        border-bottom: none;
+        padding: 2rem 1.67vw 0 1.67vw;
+    }
+    
+    .header__links-list-item:hover {
+        border-top-color: var(--blue);
+    }
+    
+    .header__link--bold-blue {
+        padding-left: 1.67vw;
+    }
+}
+
 /* search bar style */
 .search-and-filter__title { 
     padding-bottom: 0.25rem;
@@ -53,7 +122,7 @@
 }
 
 .search {
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem 0;
     display: flex;
 }
 
@@ -65,13 +134,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .search__input {
     font-size: 1rem;
     font-weight: bold;
     height: 2.5rem;
-    width: 16vw;
+    width: 100%;
     border: thin solid var(--gray);
     border-right: none;
     border-left: none;
@@ -80,39 +150,64 @@
     align-items: center;
 }
 
-.search__input--blue-button {
+.search__blue-button {
     font-size: 1rem;
     font-weight: bold;
     color: white;
     background-color: var(--blue);
     height: 2.5rem;
+    width: 2.5rem;
     border: none;
-    border-radius: 0 0.5rem 0.5rem 0;
+    border-radius: 0.5rem;
     padding: 0.75rem;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.search__input--blue-button:hover {
+.search__blue-button--text {
+    display: none;
+}
+
+.search__blue-button:hover {
     color: black;
     background-color: var(--light-blue);
+}
+
+@media all and (min-width: 992px) {
+
+    .search {
+        margin-top: 0;
+    }
+
+    .search__input {
+        width: 27%;
+    }
+
+    .search__blue-button {
+        width: auto;
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+    .search__blue-button--icon {
+        display: none;
+    }
+    .search__blue-button--text {
+        display: unset;
+    }
 }
 
 /* filter bar style */
 .filter {
     margin-bottom: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: baseline;
 }
 
 .filter__legend {
     font-size: 1rem;
     font-weight: bolder;
-    margin-right: 0.5rem;
-    float: left;
-    display: flex;
-    align-items: center;
+    margin: 0 0.5rem 0.5rem 0;
 }
 
 .filter__button {
@@ -121,10 +216,11 @@
     border-radius: 1.25rem;
     height: 2.5rem;
     padding: 0;
-    margin-left: 1.5rem;
+    margin: 0.5rem 0.5rem 0 0;
     cursor: pointer;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .filter__button:hover {
@@ -150,6 +246,18 @@
     align-items: center;
 }
 
+@media all and (min-width: 992px) {
+
+    .filter__legend {
+        float: left;
+        margin-right: 0.5rem;
+    }
+
+    .filter__button {
+        margin: 0 0 0 1rem;
+    }
+}
+
 /* info icon */
 .search-and-filter__info {
     margin-bottom: 2rem;
@@ -167,4 +275,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }

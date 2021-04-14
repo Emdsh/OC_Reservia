@@ -59,6 +59,10 @@
 
 @media all and (min-width: 768px) {
 
+    .header {
+        padding: 1rem 2.5rem 0.5rem 2.5rem;
+    }
+
     .header__nav {
         flex-flow: row nowrap;
         justify-content: flex-end;
@@ -190,6 +194,10 @@
 }
 
 @media all and (min-width: 768px) {
+
+    .search-and-filter {
+        padding: 0 2.5rem 0 2.5rem;
+    }
 
     .search__blue-button {
         width: auto;

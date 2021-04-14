@@ -1,19 +1,31 @@
 /* footer style */
 .footer {
     background-color: var(--gray);
-    height: 7rem;
+    margin-top: 2rem;
     padding: 2rem 3.33vw 2rem 3.33vw;
-    margin: 2rem -0.5rem -0.5rem -0.5rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
 }
 
 .footer__title {
     font-weight: bolder;
-    flex-basis: 33vw;
+}
+
+.footer__link {
+    line-height: 1.5rem;
 }
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+@media all and (min-width: 768px) {
+
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .footer__menu {
+        flex-basis: 33%;
+    }
 }

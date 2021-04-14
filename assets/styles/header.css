@@ -1,6 +1,6 @@
 /* header style */
 .header {
-    padding: 1rem 0 0.5rem 0;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
 }
 
 .header__logo-image {
@@ -13,7 +13,6 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3.33vw 0 3.33vw;
 }
 
 .header__logo{
@@ -123,6 +122,10 @@
 }
 
 /* search bar style */
+.search-and-filter {
+    padding: 0 1.5rem 0 1.5rem;
+}
+
 .search-and-filter__title { 
     padding-bottom: 0.25rem;
     margin-bottom: 0;
@@ -247,8 +250,8 @@
 .filter__button-text {
     font-size: 1rem;
     font-weight: bold;
-    margin-right: 1.25rem;
-    margin-left: 0.75rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
 }
 
 .filter__button-icon {

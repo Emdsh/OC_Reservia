@@ -91,28 +91,46 @@
 
 /* activity results style */
 .activity {
-}
-
-.activity__tiles-flex {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .activity__tile--large {
+    background-color: white;
+    border-radius: 1.25rem;
+    margin: 0 0 1rem 0;
+    box-shadow: 0 0 0.5rem -0.25rem black;
 }
 
 .activity__tile-image--large {
+    border-radius: 1.25rem 1.25rem 0 0;
+    height: 114px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .activity__tile--small {
+    background-color: white;
+    border-radius: 1.25rem;
+    margin: 0 0 1rem 0;
+    box-shadow: 0 0 0.5rem -0.25rem black;
 }
 
 .activity__tile-image--small {
+    border-radius: 1.25rem 1.25rem 0 0;
+    height: 114px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .activity__tile--large:hover{
+    box-shadow: 0 0 2rem -1rem black;
 }
 
 .activity__tile--small:hover{
+    box-shadow: 0 0 2rem -1rem black;
 }
 
 .activity__tile-text {
+    margin-left: 1rem;
+    padding-bottom: 0.5rem;
 }

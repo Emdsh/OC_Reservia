@@ -48,6 +48,20 @@
     box-shadow: 0 0 2rem -1rem black;
 }
 
+@media all and (min-width: 992px) {
+
+    .top-lodging {
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+        border-radius: 2.5rem;
+        min-width: 340px;
+        flex-basis: 30vw;
+    }
+
+    .top-lodging__tile {
+        margin: 0 0 2.5rem 0;
+    }
+}
+
 /* lodging results style */
 .lodging {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
@@ -87,6 +101,40 @@
 
 .lodging__load-more-button:hover {
     text-decoration: underline;
+}
+
+@media all and (min-width: 992px) {
+
+    .lodging {
+        background-color: var(--gray);
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+        border-radius: 2.5rem;
+        margin-right: 2.5rem;
+        flex-basis: 70vw;
+    }
+
+    .lodging__tiles-flex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-right: -2rem;
+    }
+    
+    .lodging__tile {
+        margin: 0 2rem 2rem 0;
+        min-width: 228px;
+    }
+}
+
+/* lodging results container */
+@media all and (min-width: 992px) {
+
+    .lodging-results {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin: 0 3rem 0 3rem;
+    }
 }
 
 /* activity results style */

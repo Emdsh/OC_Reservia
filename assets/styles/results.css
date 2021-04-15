@@ -166,7 +166,7 @@
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.activity__tile--large {
+.activity__tile {
     background-color: white;
     border-radius: 1.25rem;
     margin: 0 0 1rem 0;
@@ -180,13 +180,6 @@
     object-fit: cover;
 }
 
-.activity__tile--small {
-    background-color: white;
-    border-radius: 1.25rem;
-    margin: 0 0 1rem 0;
-    box-shadow: 0 0 0.5rem -0.25rem black;
-}
-
 .activity__tile-image--small {
     border-radius: 1.25rem 1.25rem 0 0;
     height: 114px;
@@ -194,15 +187,67 @@
     object-fit: cover;
 }
 
-.activity__tile--large:hover{
-    box-shadow: 0 0 2rem -1rem black;
-}
-
-.activity__tile--small:hover{
+.activity__tile:hover{
     box-shadow: 0 0 2rem -1rem black;
 }
 
 .activity__tile-text {
-    margin-left: 1rem;
-    padding-bottom: 0.5rem;
+    background-color: white;
+    padding: 0 0 0.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+}
+
+@media all and (min-width: 992px) {
+
+    .activity {
+        padding: 1.5rem 3rem 1.5rem 3rem; 
+    }
+
+    .activity__tiles-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 225px 225px;
+        grid-template-areas: 
+            "largeOne smallOne largeTwo smallThree"
+            "largeOne smallTwo largeTwo smallFour";
+        gap: 2.5rem;
+    }
+
+    .activity__tile-image--large {
+        border-radius: 1.25rem 1.25rem 0 0;
+        height: calc((450px + 2.5rem) - 4rem);
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .activity__tile-image--small {
+        border-radius: 1.25rem 1.25rem 0 0;
+        height: calc(225px - 4rem);
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .large-1 {
+        grid-area: largeOne;
+    }
+
+    .large-2 {
+        grid-area: largeTwo;
+    }
+
+    .small-1 {
+        grid-area: smallOne;
+    }
+
+    .small-2 {
+        grid-area: smallTwo;
+    }
+
+    .small-3 {
+        grid-area: smallThree;
+    }
+
+    .small-4 {
+        grid-area: smallFour;
+    }
 }

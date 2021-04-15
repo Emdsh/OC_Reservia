@@ -32,7 +32,7 @@
     order: 1;
 }
 
-.header__links-list-item {
+.header__links-list-item { /*! border doesn't cover the entire length */
     border-bottom: medium solid var(--gray);
 }
 

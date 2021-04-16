@@ -26,6 +26,7 @@
     justify-content: space-around;
     flex-basis: 100vw;
     padding-top: 1rem;
+    margin: 0 -1.5rem 0 -1.5rem;
 }
 
 .header__links-list--bold-blue {
@@ -34,6 +35,11 @@
 
 .header__links-list-item { /*! border doesn't cover the entire length */
     border-bottom: medium solid var(--gray);
+    flex: 1 0 50vw;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header__links-list-item:hover {
@@ -75,6 +81,7 @@
     .header__links-list {
         order: unset;
         justify-content: flex-end;
+        margin: unset;
     }
     
     .header__links-list--bold-blue {
@@ -83,6 +90,8 @@
 
     .header__links-list-item {
         margin: 0rem 1.67vw 0 1.67vw;
+        flex: unset;
+        padding-bottom: 0;
     }
 
     .header__link--bold-blue {

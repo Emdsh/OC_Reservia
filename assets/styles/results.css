@@ -166,6 +166,10 @@
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.activity__title {
+    margin-bottom: 2rem;
+}
+
 .activity__tile {
     background-color: white;
     border-radius: 1.25rem;

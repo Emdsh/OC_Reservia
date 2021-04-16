@@ -197,6 +197,25 @@
     border-radius: 0 0 1.25rem 1.25rem;
 }
 
+@media all and (min-width: 768px) {
+
+    .activity {
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    }
+
+    .activity__tiles-flex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-right: -2rem;
+    }
+
+    .activity__tile {
+        margin: 0 2rem 2rem 0;
+        min-width: 180px; /*! tiles width needs to stretch up */
+    }
+}
+
 @media all and (min-width: 992px) {
 
     .activity {

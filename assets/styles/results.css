@@ -230,6 +230,11 @@
             "largeOne smallOne largeTwo smallThree"
             "largeOne smallTwo largeTwo smallFour";
         gap: 2.5rem;
+        margin-right: 0;
+    }
+
+    .activity__tile {
+        margin: 0;
     }
 
     .activity__tile-image--large {

@@ -270,6 +270,7 @@
 
 .filter__button:hover {
     background-color: var(--light-blue);
+    border-color: var(--light-blue);
 }
 
 .filter__button-text {

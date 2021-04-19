@@ -257,7 +257,7 @@
 
 .filter__button {
     background-color: white;
-    border: thin solid var(--gray);
+    border: 2px solid var(--dark-gray);
     border-radius: 1.25rem;
     height: 2.5rem;
     padding: 0;
@@ -286,6 +286,7 @@
     border-radius: 50%;
     height: 2.5rem;
     width: 2.5rem;
+    margin-left: -2px;
     display: flex;
     justify-content: center;
     align-items: center;

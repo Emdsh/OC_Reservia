@@ -160,9 +160,9 @@
 
 .search__map-marker {
     background-color: var(--gray);
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 0.5rem 0 0 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.75rem 0 0 0.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@
 .search__input {
     font-size: 1rem;
     font-weight: bold;
-    height: 2.5rem;
+    height: 3rem;
     width: 100%;
     border: thin solid var(--gray);
     border-right: none;
@@ -187,10 +187,10 @@
     font-weight: bold;
     color: white;
     background-color: var(--blue);
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     padding: 0.75rem;
     display: flex;
     align-items: center;
@@ -214,7 +214,7 @@
 
     .search__blue-button {
         width: auto;
-        border-radius: 0 0.5rem 0.5rem 0;
+        border-radius: 0 0.75rem 0.75rem 0;
     }
 
     .search__blue-button--icon {
@@ -258,8 +258,8 @@
 .filter__button {
     background-color: white;
     border: 2px solid var(--dark-gray);
-    border-radius: 1.25rem;
-    height: 2.5rem;
+    border-radius: 1.5rem;
+    height: 3rem;
     padding: 0;
     margin: 0.5rem 0.5rem 0 0;
     cursor: pointer;
@@ -285,8 +285,8 @@
     color: var(--blue);
     background-color: var(--light-blue);
     border-radius: 50%;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
     margin-left: -2px;
     display: flex;
     justify-content: center;

@@ -332,7 +332,7 @@
 .search-and-filter__info-icon {
     font-size: 0.75rem;
     color: var(--blue);
-    border: thin solid var(--gray);
+    border: thin solid var(--dark-gray);
     border-radius: 50%;
     height: 1.25rem;
     width: 1.25rem;

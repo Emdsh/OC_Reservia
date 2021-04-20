@@ -42,3 +42,9 @@ fieldset {
     border: none;
     padding: 0;
 }
+
+/* MODEL-ONLY */
+.model-active {
+    border-color: var(--blue);
+    color: var(--blue);
+}

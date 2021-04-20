@@ -33,7 +33,7 @@
     order: 1;
 }
 
-.header__links-list-item { /*! border doesn't cover the entire length */
+.header__links-list-item {
     border-bottom: medium solid var(--gray);
     flex: 1 0 50vw;
     padding-bottom: 0.5rem;

@@ -26,7 +26,7 @@
 .top-lodging__tile {
     background-color: white;
     border-radius: 1.25rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     margin: 0 0 1rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
     display: flex;
@@ -34,7 +34,7 @@
 }
 
 .top-lodging__tile-image {
-    border-radius: 0.75rem 0 0 0.75rem;
+    border-radius: 1rem 0 0 1rem;
     width: 127px;
     height: 127px;
     margin-right: 1.5rem;
@@ -88,13 +88,13 @@
 .lodging__tile {
     background-color: white;
     border-radius: 1.25rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     margin: 0 0 1rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
 }
 
 .lodging__tile-image {
-    border-radius: 0.75rem 0.75rem 0 0;
+    border-radius: 1rem 1rem 0 0;
     height: 114px;
     width: 100%;
     object-fit: cover;

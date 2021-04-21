@@ -37,16 +37,25 @@
     border-radius: 1rem 0 0 1rem;
     width: 127px;
     height: 127px;
-    margin-right: 1rem;
     object-fit: cover;
 }
 
 .top-lodging__tile-text {
     line-height: 1rem;
-    margin-right: 1rem;
+    margin: 0 1rem 0.5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.top-lodging__tile-text--title {
+    padding-bottom: 0.25rem;
+    margin-bottom: 0;
+}
+
+.top-lodging__tile-text--pricing {
+    padding-top: 0.25rem;
+    margin-top: 0;
 }
 
 .top-lodging__tile:hover {
@@ -103,7 +112,23 @@
 
 .lodging__tile-text {
     line-height: 1rem;
-    margin: 0 1rem 0 1rem;
+    margin: 0 1rem 0.5rem 1rem;
+}
+
+.lodging__tile-text--title{
+    padding: 0.5rem 0 0.25rem 0;
+    margin: 0;
+}
+
+.lodging__tile-text--pricing {
+    padding: 0.25rem 0 0.25rem 0;
+    margin: 0;
+}
+
+.lodging__tile-text--rating {
+    padding-top: 0.25rem;
+    margin-top: 0;
+    display: inline-block;
 }
 
 .lodging__load-more-button {

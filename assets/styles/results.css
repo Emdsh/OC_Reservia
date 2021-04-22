@@ -33,6 +33,11 @@
     flex-direction: row;
 }
 
+.top-lodging__tile-image-container {
+    width: 127px;
+    height: 127px;
+}
+
 .top-lodging__tile-image {
     border-radius: 1rem 0 0 1rem;
     width: 127px;
@@ -79,6 +84,7 @@
         border-radius: 2.5rem;
         min-width: 340px;
         flex-basis: 30vw;
+        padding-bottom: 0;
     }
 
     .top-lodging__tile {
@@ -101,6 +107,11 @@
     padding: 0.25rem;
     margin: 0 0 1rem 0;
     box-shadow: 0 0 0.5rem -0.25rem black;
+}
+
+.lodging__tile-image-container {
+    height: 114px;
+    width: 100%;
 }
 
 .lodging__tile-image {
@@ -151,10 +162,6 @@
         padding: 1.5rem 2.5rem 1.5rem 2.5rem;
     }
 
-    .lodging__tile {
-        margin: 0 0 2rem 0;
-    }
-
     .lodging__tiles-flex {
         display: flex;
         flex-flow: row wrap;
@@ -162,9 +169,13 @@
         margin-right: -2rem;
     }
 
+    .lodging__tile-image-container {
+        flex: 1 0 180px;
+        
+    }
+
     .lodging__tile {
         margin: 0 2rem 2rem 0;
-        min-width: 180px; /*! tiles width needs to stretch up */
     }
 
     .lodging__load-more-button {
@@ -180,10 +191,15 @@
         margin-right: 2.5rem;
         flex-basis: 70vw;
     }
-    
-    .lodging__tile {
-        min-width: 228px; /*! tiles width needs to stretch up */
+
+    .lodging__tile-image-container {
+        flex: 228px
     }
+    
+    /*.lodging__tile {
+        /*min-width: 228px; /*! tiles width needs to stretch up
+        flex: 1 0 1000000px;
+    }*/
 }
 
 /* lodging results container */

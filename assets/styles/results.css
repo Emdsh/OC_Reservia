@@ -254,16 +254,19 @@
         margin-right: -2rem;
     }
 
+    .activity__tile-flex-children {
+        flex: 1 1 240px;
+    }
+
     .activity__tile {
         margin: 0 2rem 2rem 0;
-        min-width: 180px; /*! tiles width needs to stretch up */
     }
 }
 
 @media all and (min-width: 992px) {
 
     .activity {
-        padding: 1.5rem 3rem 1.5rem 3rem; 
+        padding: 1.5rem 3rem 3.5rem 3rem; 
     }
 
     .activity__tiles-flex {

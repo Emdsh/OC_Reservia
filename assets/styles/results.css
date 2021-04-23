@@ -1,8 +1,4 @@
 /* stars */
-.fa-star {
-    display: inline-block;
-}
-
 .star--full-blue {
     color: var(--blue);
 }

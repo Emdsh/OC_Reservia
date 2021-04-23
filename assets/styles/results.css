@@ -219,14 +219,7 @@
     box-shadow: 0 0 0.5rem -0.25rem black;
 }
 
-.activity__tile-image--large {
-    border-radius: 1.25rem 1.25rem 0 0;
-    height: 114px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.activity__tile-image--small {
+.activity__tile-image {
     border-radius: 1.25rem 1.25rem 0 0;
     height: 114px;
     width: 100%;
@@ -260,6 +253,19 @@
 
     .activity__tile {
         margin: 0 2rem 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-height: calc((114px + 1.5rem) + 2rem);
+    }
+
+    .activity__tile-image {
+        height: 0;
+        flex: 0 1 114px;
+    } 
+
+    .activity__tile-text {
+        flex: 1 0 1.5rem;
     }
 }
 
@@ -278,24 +284,32 @@
             "largeOne smallTwo largeTwo smallFour";
         gap: 2.5rem;
         margin-right: 0;
+        place-items: stretch;
+        place-content: stretch;
     }
 
-    .activity__tile {
+    .activity__tile--large {
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-height: calc((225px + 225px) + 2.5rem);
     }
 
     .activity__tile-image--large {
-        border-radius: 1.25rem 1.25rem 0 0;
-        height: calc((450px + 2.5rem) - 4rem);
-        width: 100%;
-        object-fit: cover;
+        flex: 0 1 calc((225px + 225px) + 2.5rem);
+    }
+
+    .activity__tile--small {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-height: 225px;
     }
 
     .activity__tile-image--small {
-        border-radius: 1.25rem 1.25rem 0 0;
-        height: calc(225px - 4rem);
-        width: 100%;
-        object-fit: cover;
+        flex: 0 1 225px;
     }
 
     .large-1 {

@@ -11,8 +11,11 @@
 }
 
 /* main style */
-body {
+* {
     font-family: 'Raleway', sans-serif;
+}
+
+body {
     background-color: white;
     margin: 0;
 }

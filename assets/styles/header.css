@@ -166,7 +166,6 @@
 }
 
 .search__input {
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
     height: 3rem;
@@ -180,7 +179,6 @@
 }
 
 .search__blue-button {
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
     color: white;
@@ -250,7 +248,6 @@
 }
 
 .filter__legend {
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
     margin: 0 0.5rem 0.5rem 0;
@@ -275,7 +272,6 @@
 }
 
 .filter__button-text {
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: bolder;
     margin-right: 1rem;

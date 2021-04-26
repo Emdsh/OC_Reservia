@@ -90,7 +90,7 @@
 
 /* lodging results style */
 .lodging {
-    padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+    padding: 2rem 1.25rem 1.5rem 1.25rem;
 }
 
 .lodging__title {
@@ -155,7 +155,7 @@
 @media all and (min-width: 768px) {
 
     .lodging {
-        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+        padding: 2rem 2.5rem 1.5rem 2.5rem;
     }
 
     .lodging__tiles-flex {
@@ -181,6 +181,7 @@
 @media all and (min-width: 992px) {
 
     .lodging {
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
         background-color: var(--gray);
         border-radius: 2.5rem;
         margin-right: 2.5rem;
@@ -205,7 +206,7 @@
 
 /* activity results style */
 .activity {
-    padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+    padding: 0.5rem 1.25rem 1.5rem 1.25rem;
 }
 
 .activity__title {
@@ -237,7 +238,7 @@
 @media all and (min-width: 768px) {
 
     .activity {
-        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+        padding: 0 2.5rem 0 2.5rem;
     }
 
     .activity__tiles-flex {
@@ -272,7 +273,7 @@
 @media all and (min-width: 992px) {
 
     .activity {
-        padding: 1.5rem 3rem 3.5rem 3rem; 
+        padding: 1.5rem 3rem 2rem 3rem; 
     }
 
     .activity__tiles-flex {
